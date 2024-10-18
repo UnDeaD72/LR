@@ -1,10 +1,6 @@
-#include <iostream>
-using namespace std;  // Лишнее использование пространства имен
+#include <iostream>  // Подключение библиотеки для ввода-вывода
 
 int main() {
-    string name;  // Переменная для хранения имени пользователя
-    cout << "Enter your name: ";  // Запрос имени
-    cin >> name;  // Ввод имени
-    cout << "Hello world from " << name << "!" << endl;  // Вывод сообщения
-    return 0;
+    std::cout << "Hello, World!" << std::endl;  // Вывод строки в консоль
+    return 0;  // Завершение программы
 }
