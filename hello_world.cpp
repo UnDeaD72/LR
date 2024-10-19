@@ -1,12 +1,6 @@
-#include <iostream>  // Подключение библиотеки ввода-вывода
+#include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;  // Вывод сообщения в консоль
-    return 0;  // Завершение программы
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
 }
-    #include <iostream>  // Подключение библиотеки для ввода-вывода
-
-    int main() {
-        std::cout << "Hello, World!" << std::endl;  // Вывод строки в консоль
-        return 0;  // Завершение программы
-    }
