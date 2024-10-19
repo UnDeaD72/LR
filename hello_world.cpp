@@ -2,5 +2,5 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;  // Вывод сообщения в консоль
-    return 0;  // Завершение программы
+    return 0;  // Завершение программыs
 }
